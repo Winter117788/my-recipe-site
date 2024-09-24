@@ -1,0 +1,50 @@
+.page-body {
+    background-color: #f0f0f0; /* 设置背景颜色 */
+    font-family: Arial, sans-serif; /* 设置字体 */
+}
+
+.page-h1 {
+    color: goldenrod; /* 设置标题颜色 */
+    text-align: center; /* 居中对齐标题 */
+}
+
+.page-p {
+    color: black; /* 设置段落文字颜色 */
+    font-size: 16px; /* 设置段落字体大小 */
+    padding: 0px; /* 设置段落内边距 */
+}
+
+.page-little-tittle {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+
+.image-container {
+    text-align: center; /* 将内容居中 */
+}
+
+.box {
+    width: 600px; /* 内容区域宽度 */
+    height: 10px;
+    padding: 20px; /* 内边距 */
+    border: 20px ridge #4CAF50; /* 边框 */
+    margin: 60px auto; /* 外边距：自动居中 */
+    background-color: #e0f7fa; /* 背景颜色 */
+    text-align: center;
+    color: #333;
+        /* 新增：使用flexbox来垂直居中 */
+    display: flex; 
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
+
+.box-1 {
+    width: 300px; /* 内容区域宽度 */
+    padding: 50px; /* 内边距 */
+    border: 40px solid #29bbc8; /* 边框 */
+    margin: 100px 500px; /* 外边距：自动居中 */
+    background-color: #e0f7fa; /* 背景颜色 */
+    text-align: center;
+    color: #333; 
+}
